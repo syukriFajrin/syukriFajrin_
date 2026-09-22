@@ -1,0 +1,191 @@
+body{
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    color:#424242;
+    
+}
+#content {
+    width: 20%;
+    height: 100px;
+    background-color: white;
+    margin-top:5px;
+    margin-right:5px;
+    border-radius: 10px;
+    padding :15px;
+
+}
+#content1{
+    width: 40%;
+    height:100%;
+    background-color: #E8E8E8;
+    margin-top:5px;
+    border-radius: 10px;
+    padding: 15px;
+}
+h1{
+    padding:0px;
+    margin:0px;
+    font-size:20px;
+    
+}
+p{
+    margin:0px;
+    font-size:13px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size:15px;
+}
+#line_1{
+    background-color: #424242;
+    width: 50%;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top :5px;
+}
+h2{
+    font-size: 14px;
+    margin:3px;
+}
+ul{
+    font-size: 13px;
+    margin:0px;
+}
+
+#project{
+    margin-top :20px;
+}
+#image{
+    width:50%;
+    height:100px;
+    background-color:green;
+    border-radius: 10px;
+    background-image: url(Iot.jpeg);
+}
+
+#image2{
+    width:50%;
+    height:100px;
+    background-color:green;
+    border-radius: 10px;
+    background-image: url(electrical.png);
+}
+#image3{
+    width:50%;
+    height:100px;
+    background-color:green;
+    border-radius: 10px;
+    background-image: url(ML.jpeg);
+    margin-bottom: 20px;
+}
+#educ{
+    display:flex;
+    margin-bottom: 25px ;
+    align-items: center;
+}
+#educ div{
+    width:2px;
+    height:40px ;
+    background-color:#424242 ;
+}
+#educ li{
+    list-style: none;
+}
+#educ ul{
+    padding-left: 10px;
+    
+}
+#ex{
+    display :flex;
+    
+    
+}
+#ex ul {
+    padding-left:10px ;
+}
+
+#ex div{
+    width: 2px;
+    height: 40px;
+    background-color: #424242;
+}
+
+/* content*/
+#content p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#profile {
+    display: flex;   
+}
+#photo {
+    width:40%;
+    height:80px;
+    background-image: url('photo/profill.png');
+    margin-right:10px;
+    background-repeat:no-repeat;
+    background-size: 80px;
+}
+#contact{
+    padding: 0px;
+    list-style: none;
+}
+#contact li {
+    display: flex;
+    margin-top:10px;
+}
+#contact a{
+    margin-left: 5px;
+}
+#email{
+    width: 20px;
+    height: 20px;
+    background-image:url(photo/email.jpeg);
+    background-size:22px;
+    background-repeat: no-repeat;
+}
+#Github{
+    width: 20px;
+    height: 20px;
+    background-image:url(photo/github.png);
+    background-size:25px;
+    background-repeat: no-repeat;
+}
+#Linkedin{
+    width: 20px;
+    height: 20px;
+    background-image:url(photo/LinkedIn.png);
+    background-size:20px;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color:#424242;
+}
+#sertifikat{
+    margin-top: 20px;
+}
+#email a{
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    body{
+        display:inline;
+        
+    }
+    #content{
+        width:97%;
+    }
+    
+    #content1{
+        width:97%;
+        margin-top: 100px;  
+    }
+    #photo {
+        margin-right:-100px;
+    }
+
+}
