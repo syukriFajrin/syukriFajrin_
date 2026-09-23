@@ -187,5 +187,12 @@ a{
     #photo {
         margin-right:-100px;
     }
+    #content h1 {
+        margin-left: 20px;
+    }
+    #content p{
+        margin-left: 20px ;
+    }
+    
 
 }
